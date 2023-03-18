@@ -63,7 +63,7 @@ window.addEventListener('load',(function() {
     video_player.height = video_canvas.height
     video_player.width = video_canvas.width
 
-})(),false);
+})(),false)
 
 
 addEventListener("resize", (event) => {
@@ -73,5 +73,4 @@ addEventListener("resize", (event) => {
 
   video_player.height = video_canvas.height
   video_player.width = video_canvas.width
-});
-
+})
