@@ -47,7 +47,7 @@ function new_video(){
 
 window.addEventListener('load',(function() {
     let p = document.createElement('p')
-    p.textContent = "choose video file"
+    p.textContent = "choose video"
     document.getElementById("country-code").appendChild(p)
     video_input = document.createElement('input')
     video_input.type = 'file'
